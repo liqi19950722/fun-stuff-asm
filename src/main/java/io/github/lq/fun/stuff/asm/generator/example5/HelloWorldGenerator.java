@@ -4,7 +4,7 @@ import io.github.lq.fun.stuff.annotation.MyTag;
 import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.Type;
 
-import static io.github.lq.fun.stuff.asm.generator.ByteCodeUtil.byteCodeWriteToFile;
+import static io.github.lq.fun.stuff.asm.ByteCodeUtil.byteCodeWriteToFile;
 import static org.objectweb.asm.Opcodes.ACC_ABSTRACT;
 import static org.objectweb.asm.Opcodes.ACC_FINAL;
 import static org.objectweb.asm.Opcodes.ACC_INTERFACE;

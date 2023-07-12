@@ -2,7 +2,7 @@ package io.github.lq.fun.stuff.asm.generator.example7;
 
 import org.objectweb.asm.ClassWriter;
 
-import static io.github.lq.fun.stuff.asm.generator.ByteCodeUtil.byteCodeWriteToFile;
+import static io.github.lq.fun.stuff.asm.ByteCodeUtil.byteCodeWriteToFile;
 import static org.objectweb.asm.Opcodes.ACC_PUBLIC;
 import static org.objectweb.asm.Opcodes.ACC_SUPER;
 import static org.objectweb.asm.Opcodes.ALOAD;
